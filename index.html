@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maciej Koprowski | Astrophysicist</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; margin: 0; display: flex; color: #333; background: #f4f4f4; }
+        nav { width: 280px; background: #1a2a3a; color: white; height: 100vh; position: fixed; padding: 30px; }
+        nav h1 { font-size: 1.4rem; margin-bottom: 5px; color: #fff; }
+        nav p { font-size: 0.9rem; color: #bdc3c7; margin-bottom: 30px; }
+        nav a { display: block; color: #ecf0f1; text-decoration: none; padding: 12px 0; border-bottom: 1px solid rgba(255,255,255,0.1); transition: 0.3s; }
+        nav a:hover { color: #3498db; }
+        
+        main { margin-left: 340px; padding: 50px; background: white; min-height: 100vh; box-shadow: -5px 0 15px rgba(0,0,0,0.05); }
+        section { max-width: 800px; margin-bottom: 40px; }
+        h2 { color: #1a2a3a; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
+        .pub-item { margin-bottom: 15px; padding-left: 15px; border-left: 3px solid #eee; }
+        .pub-title { font-weight: bold; display: block; }
+        .contact-box { background: #f9f9f9; padding: 20px; border-radius: 5px; border: 1px solid #ddd; }
+        
+        @media (max-width: 768px) {
+            body { flex-direction: column; }
+            nav { width: 100%; height: auto; position: static; padding: 20px; }
+            main { margin-left: 0; padding: 20px; }
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <h1>Maciej Koprowski</h1>
+        <p>Assistant Professor<br>Institute of Astronomy, UMK</p>
+        <a href="#about">Research Interests</a>
+        <a href="#publications">Selected Papers</a>
+        <a href="#contact">Contact</a>
+        <a href="https://orcid.org/0000-0001-5785-1154" target="_blank">ORCID Profile</a>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h2>Research Interests</h2>
+            <p>I am an astrophysicist focused on understanding the evolution of the star-formation rate density (SFRD) and the nature of galaxies in the early Universe. My work utilizes deep multi-wavelength observations, from the ultraviolet to the far-infrared and submillimeter regimes.</p>
+            <ul>
+                <li><strong>The Dusty Universe:</strong> Using data from ALMA and SCUBA-2, I study submillimeter galaxies (SMGs) to reveal star formation obscured by dust.</li>
+                <li><strong>Cosmic Dawn:</strong> Analysis of high-redshift luminosity functions ($z > 3$) to constrain cosmological models.</li>
+            </ul>
+        </section>
+
+        <section id="publications">
+            <h2>Selected Publications</h2>
+            <div class="pub-item">
+                <span class="pub-title">The evolution of the galaxy UV luminosity function at $z \simeq 3-9$</span>
+                <small>Koprowski et al. (2025) - arXiv:2509.12922</small>
+            </div>
+            <div class="pub-item">
+                <span class="pub-title">A deep ALMA image of the Hubble Ultra Deep Field</span>
+                <small>Koprowski et al. (2016) - ApJ Letters</small>
+            </div>
+            <p><a href="https://ui.adsabs.harvard.edu/search/q=author%3A%22Koprowski%2C%20Maciej%22" target="_blank">View all publications on NASA/ADS →</a></p>
+        </section>
+
+        <section id="contact" class="contact-box">
+            <h2>Contact</h2>
+            <p><strong>Email:</strong> mkoprowski@fizyka.umk.pl</p>
+            <p><strong>Address:</strong> Institute of Astronomy, NCU<br>Gagarina 11, 87-100 Toruń, Poland</p>
+            <p><strong>Room:</strong> Radioastronomy, room 19</p>
+        </section>
+    </main>
+
+</body>
+</html>
